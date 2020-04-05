@@ -58,13 +58,22 @@ The `LIMIT_TRAVEL` preventative measure sets the initial velocity of adhering ho
 
 ## Running
 
+### Manually run the simulation
+
+Python 3 is required.
+
 - Install dependencies:
     - `pip install -r requirements.txt`
 
 - Customize parameters
     - Edit any of the provided values in `constants.py` to change boundary conditions.
     - the `PreventativeMeasure.SELECTED` array provides the active `PreventativeMeasures`
-    
+
+- Run the simulation
+    - `python universe.py`
+   
+A `Makefile` is provided for convenience.
+
  ## Credits
  
 Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/master/bouncingball), from which I adapted basic 2-dimensional particle interactions for simulating collisions between circular objects in `pygame`.
