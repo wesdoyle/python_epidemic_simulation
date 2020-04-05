@@ -43,7 +43,7 @@ class InitialCondition:
 class HostConfig:
     SIZE = 11
     VACCINATION_DRIP = 3
-    PREVENTATIVE_MEASURE_ADHERENCE = 0.8
+    PREVENTATIVE_MEASURE_ADHERENCE = 0.5
     MAX_SPEED = 6
     MIN_SPEED = 2
 

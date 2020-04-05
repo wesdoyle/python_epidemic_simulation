@@ -122,9 +122,9 @@ class Universe(object):
         i = 0
 
         actions = [
-            # PreventativeMeasure.LIMIT_TRAVEL,
+            PreventativeMeasure.LIMIT_TRAVEL,
             # PreventativeMeasure.VACCINATE_POP,
-            PreventativeMeasure.SHELTER_IN_PLACE
+            # PreventativeMeasure.SHELTER_IN_PLACE
         ]
 
         self.preventative_measures = PreventativeMeasures(
