@@ -47,7 +47,7 @@ Given a percentage of `PREVENTATIVE_MEASURE_ADHERENCE`, a random sample of the p
 
 #### Shelter In Place
 
-The `SHELTER_IN_PLACE` preventative measure sets the velocity of adhering hosts to 0 (permanent)
+[The `SHELTER_IN_PLACE` preventative measure sets the velocity of adhering hosts to 0 (permanent)
 
 #### Vaccination
 
@@ -66,5 +66,9 @@ The `LIMIT_TRAVEL` preventative measure sets the initial velocity of adhering ho
     - `pip install -r requirements.txt`
 
 - Customize parameters
-    - Edit any of the provided values in `constants.py` to change boundary conditions.W
+    - Edit any of the provided values in `constants.py` to change boundary conditions.
     - the `PreventativeMeasure.SELECTED` array provides the active `PreventativeMeasures`
+    
+ ## Credits
+ 
+Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/master/bouncingball), from which I adapted basic 2-dimensional particle physics for simulating collisions between hosts.
