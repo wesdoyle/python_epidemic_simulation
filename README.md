@@ -49,7 +49,7 @@ Given a percentage of `PREVENTATIVE_MEASURE_ADHERENCE`, a random sample of the p
 
 #### Shelter In Place
 
-[The `SHELTER_IN_PLACE` preventative measure sets the velocity of adhering hosts to 0 (permanent)
+The `SHELTER_IN_PLACE` preventative measure sets the velocity of adhering hosts to 0 (permanent)
 
 #### Vaccination
 
