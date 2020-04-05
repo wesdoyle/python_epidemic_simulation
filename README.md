@@ -31,11 +31,13 @@ Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 
 The following laws govern the simulation:
 
-    - If an `unexposed` and `infected` host come into contact, the `unexposed` host becomes `infected`
-    - `infected` hosts, while contagious, gradually recover over time
-    - All hosts survive
-    - After a configurable period of time, an `infected` host becomes `recovered`
-    - `recovered` hosts are not contagious
+- When initialized, a configured percentage of adherent hosts follow preventative measures.
+- Unless limited by preventative measures, hosts initialize traveling in a random direction in a specified range of speed.
+- If an `unexposed` and `infected` host come into contact, the `unexposed` host becomes `infected`
+- `infected` hosts, while contagious, gradually recover over time
+- All hosts survive
+- After a configurable period of time, an `infected` host becomes `recovered`
+- `recovered` hosts are not contagious
 
 ### Preventative Measures
 
