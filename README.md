@@ -71,4 +71,4 @@ The `LIMIT_TRAVEL` preventative measure sets the initial velocity of adhering ho
     
  ## Credits
  
-Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/master/bouncingball), from which I adapted basic 2-dimensional particle physics for simulating collisions between hosts.
+Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/master/bouncingball), from which I adapted basic 2-dimensional particle interactions for simulating collisions between circular objects in `pygame`.
