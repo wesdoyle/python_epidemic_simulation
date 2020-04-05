@@ -121,11 +121,7 @@ class Universe(object):
         """
         i = 0
 
-        actions = [
-            PreventativeMeasure.LIMIT_TRAVEL,
-            # PreventativeMeasure.VACCINATE_POP,
-            # PreventativeMeasure.SHELTER_IN_PLACE
-        ]
+        actions = PreventativeMeasure.SELECTED
 
         self.preventative_measures = PreventativeMeasures(
             self.hosts,
@@ -159,7 +155,6 @@ class Universe(object):
         for host in self.hosts:
             if host.vaccine:
                 boost_recovery = 1 + random.randint(0, host.vaccine.drip_rate)
-                print(boost_recovery)
                 host.remaining_recovery -= boost_recovery
 
             if host.remaining_recovery <= 0:

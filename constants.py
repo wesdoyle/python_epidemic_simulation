@@ -52,3 +52,9 @@ class PreventativeMeasure:
     SHELTER_IN_PLACE = 0
     VACCINATE_POP = 1
     LIMIT_TRAVEL = 2
+
+    SELECTED = [
+        LIMIT_TRAVEL,
+        VACCINATE_POP,
+        SHELTER_IN_PLACE
+    ]
