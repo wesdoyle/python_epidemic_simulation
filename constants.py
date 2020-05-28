@@ -4,6 +4,9 @@ Simulation Constants
 
 
 class SimColor:
+"""
+Tuples corresponding to RGB colors
+"""
     LIGHT_GREY = (240, 240, 240)
     DARK_GREY = (30, 30, 50)
     BLACK = (0, 0, 0)
@@ -14,6 +17,9 @@ class SimColor:
 
 
 class Disease:
+"""
+Constants for disease
+"""
     INFECTED = 0
     RECOVERED = 1
     UNEXPOSED = 2
