@@ -4,7 +4,7 @@ PROJECT_NAME ?= python_epidemic_simulation
 
 test:
 	echo "no tests yet"
-coming soon wlcome
+coming soon wlcome 123
 build:
 	pip install -r requirements.txt
 
