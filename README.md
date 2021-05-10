@@ -52,6 +52,11 @@ The `SHELTER_IN_PLACE` preventative measure sets the velocity of adhering hosts 
 The `VACCINATE_POP` preventative measure provides the adhering hosts with a recovery multiplier. The vaccination for any host provides is a random value between 0 and `VACCINATION_DRIP`, which is added to the recovery constant for any host.
 `VACCINATION_DRIP` is intended to simulate the idea that of the percentage of units that adhere, each vaccinates at a variable time. Vaccination effect takes place immediately, even if a host is in unexposed state.
 
+#### How long does protection from a COVID-19 vaccine last?
+
+We don’t know how long protection lasts for those who are vaccinated.
+Experts are working to learn more about both natural immunity and vaccine-induced immunity.
+
 #### Limit Travel
 
 The `LIMIT_TRAVEL` preventative measure sets the initial velocity of adhering hosts to 50%
@@ -71,13 +76,13 @@ Python 3 is required.
 
 - Run the simulation
     - `python universe.py`
-   
+
 A `Makefile` is provided for convenience.
 
  ## Credits
- 
+
 Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/master/bouncingball), from which I adapted basic 2-dimensional particle interactions for simulating collisions between circular objects in `pygame`.
 
  ## Improvements
- 
+
  Improvements, additions, and corrections to the simulation are welcome. Please create a pull request if you would like to contribue.
