@@ -17,9 +17,7 @@ Tuples corresponding to RGB colors
 
 
 class Disease:
-"""
-Constants for disease
-"""
+
     INFECTED = 0
     RECOVERED = 1
     UNEXPOSED = 2
@@ -50,7 +48,9 @@ class InitialCondition:
     POP_UNEXPOSED = 49
     POP_INFECTED = 1
 
-
+"""
+Class for host configuration status
+"""
 class HostConfig:
     SIZE = 11
     VACCINATION_DRIP = 3
