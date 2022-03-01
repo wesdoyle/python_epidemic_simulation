@@ -5,7 +5,7 @@ Simulation Constants
 
 class SimColor:
 """
-Tuples corresponding to RGB colors
+Tuples corresponding to RGB colors updated by me, don't mind it, just testing
 """
     LIGHT_GREY = (240, 240, 240)
     DARK_GREY = (30, 30, 50)
@@ -18,7 +18,7 @@ Tuples corresponding to RGB colors
 
 class Disease:
 """
-Constants for disease
+Constants for disease, update bro
 """
     INFECTED = 0
     RECOVERED = 1
@@ -35,7 +35,7 @@ Constants for disease
 
 class Screen:
 """
-Constants for Screen
+Constants for Screen, just tryna learn github coz why not?
 """
     WIDTH = 680
     HEIGHT = 480
