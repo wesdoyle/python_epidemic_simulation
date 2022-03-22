@@ -29,7 +29,7 @@ Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 
 ### Basic Laws
 
-The following laws govern the simulation:
+The laws below govern the simulation:
 
 - When initialized, a configured percentage of adherent hosts follow preventative measures.
 - Unless limited by preventative measures, hosts initialize traveling in a random direction in a specified range of speed.
