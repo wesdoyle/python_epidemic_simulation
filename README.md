@@ -80,4 +80,4 @@ Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/ma
 
  ## Improvements
  
- Improvements, additions, and corrections to the simulation are welcome. Please create a pull request if you would like to contribue.
+ Improvements, additions, and corrections to the simulation are welcome. Please create a pull request if you would like to contribue...
