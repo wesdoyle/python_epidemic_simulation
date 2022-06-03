@@ -10,6 +10,7 @@ Thus, all hosts survive in this simulation.
 This simulation can be used to visualize the concept of "flattening the curve."
 """
 import random
+import numpy as np
 import sys
 import pygame
 from pygame import Color, Rect
