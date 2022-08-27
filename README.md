@@ -4,9 +4,9 @@
 
 ### This is not a scientifically correct or rigorous simulation. It is used for programming learning purposes only!
 
-This is a crude simulation of an edpidemic using Python and `pygame`.
+This is a crude simulation of an epidemic using Python and `pygame`.
 
-The simulation consists of a 2-dimensional space in which a configurable number of epidemiological hosts move and transmit a contagious state with variable linear velocity.
+The simulation consists of a 2-dimensional space in which a configurable number of epidemiological hosts move and transmit a contagious state with a variable linear velocity.
 
 Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 
@@ -32,7 +32,7 @@ Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 The laws below govern the simulation:
 
 - When initialized, a configured percentage of adherent hosts follow preventative measures.
-- Unless limited by preventative measures, hosts initialize traveling in a random direction in a specified range of speed.
+- Unless limited by preventative measures, hosts initialize traveling in a random direction at a specified range of speed.
 - If an `unexposed` and `infected` host come into contact, the `unexposed` host becomes `infected`
 - `infected` hosts, while contagious, gradually recover over time
 - All hosts survive
@@ -41,7 +41,7 @@ The laws below govern the simulation:
 
 ### Preventative Measures
 
-Several preventative measures can be simulated. A configurable percentage of the population adopting preventative measure can be chosen. Given a percentage of `PREVENTATIVE_MEASURE_ADHERENCE`, a random sample of the population is chosen to behave accordingly.
+Several preventative measures can be simulated. A configurable percentage of the population adopting preventative measures can be chosen. Given a percentage of `PREVENTATIVE_MEASURE_ADHERENCE`, a random sample of the population is chosen to behave accordingly.
 
 #### Shelter In Place
 
@@ -49,8 +49,8 @@ The `SHELTER_IN_PLACE` preventative measure sets the velocity of adhering hosts 
 
 #### Vaccination
 
-The `VACCINATE_POP` preventative measure provides the adhering hosts with a recovery multiplier. The vaccination for any host provides is a random value between 0 and `VACCINATION_DRIP`, which is added to the recovery constant for any host.
-`VACCINATION_DRIP` is intended to simulate the idea that of the percentage of units that adhere, each vaccinates at a variable time. Vaccination effect takes place immediately, even if a host is in unexposed state.
+The `VACCINATE_POP` preventative measure provides the adhering hosts with a recovery multiplier. The vaccination for any host provides a random value between 0 and `VACCINATION_DRIP`, which is added to the recovery constant for any host.
+`VACCINATION_DRIP` is intended to simulate the idea that of the percentage of units that adhere, each vaccinates at a variable time. Vaccination effect takes place immediately, even if a host is in an unexposed state.
 
 #### Limit Travel
 
@@ -80,4 +80,4 @@ Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/ma
 
  ## Improvements
  
- Improvements, additions, and corrections to the simulation are welcome. Please create a pull request if you would like to contribue.
+ Improvements, additions, and corrections to the simulation are welcome. Please create a pull request if you would like to contribute.
