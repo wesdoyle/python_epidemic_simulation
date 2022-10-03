@@ -33,11 +33,11 @@ The laws below govern the simulation:
 
 - When initialized, a configured percentage of adherent hosts follow preventative measures.
 - Unless limited by preventative measures, hosts initialize traveling in a random direction in a specified range of speed.
-- If an `unexposed` and `infected` host come into contact, the `unexposed` host becomes `infected`
-- `infected` hosts, while contagious, gradually recover over time
-- All hosts survive
-- After a configurable period of time, an `infected` host becomes `recovered`
-- `recovered` hosts are not contagious
+- If an `unexposed` and `infected` host comes into contact, the `unexposed` host becomes `infected`.
+- `infected` hosts, while contagious, gradually recover over time.
+- All hosts survive.
+- After a configurable period of time, an `infected` host becomes `recovered`.
+- `recovered` hosts are not contagious.
 
 ### Preventative Measures
 
@@ -54,7 +54,7 @@ The `VACCINATE_POP` preventative measure provides the adhering hosts with a reco
 
 #### Limit Travel
 
-The `LIMIT_TRAVEL` preventative measure sets the initial velocity of adhering hosts to 50%
+The `LIMIT_TRAVEL` preventative measure sets the initial velocity of adhering hosts to 50%.
 
 ## Running
 
