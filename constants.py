@@ -44,7 +44,7 @@ Constants for Screen
     MEDICAL_LIMIT = 50
 
 """
-Class for initial condition of Patient
+Class for initial condition of Patient(Both unexposed and infected)
 """
 class InitialCondition:
     POP_UNEXPOSED = 49
