@@ -7,8 +7,8 @@ class SimColor:
 """
 Tuples corresponding to RGB colors
 """
-    LIGHT_GREY = (240, 240, 240)
-    DARK_GREY = (30, 30, 50)
+    LIGHT_GREY = (240, 240, 230)
+    DARK_GREY = (30, 30, 40)
     BLACK = (0, 0, 0)
     LIMIT_LINE = (80, 80, 100)
     INFECTED = (210, 100, 140)
