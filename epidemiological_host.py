@@ -288,6 +288,7 @@ def make_hosts(unexposed: int, infected: int) -> list:
     :param unexposed: int number of unexposed EpiHosts
     :param infected: int number of infected EpiHosts
     :return: list EpiHost instances
+    
     """
     unexposed = [build_host(Disease.UNEXPOSED, i) for i in range(unexposed)]
     infected = [build_host(Disease.INFECTED, i) for i in range(infected)]
