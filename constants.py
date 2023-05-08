@@ -2,6 +2,7 @@
 Simulation Constants
 """
 
+# This is my change
 
 class SimColor:
 """
@@ -42,7 +43,7 @@ Constants for Screen
     FONT_SIZE = 18
     GRAPH_X_UNIT = 0.8
     MEDICAL_LIMIT = 50
-
+#And this too
 """
 Class for initial condition of Patient
 """
