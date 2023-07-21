@@ -3,6 +3,10 @@ Simulation Constants
 """
 
 
+
+"""
+Class disease
+"""
 class SimColor:
 """
 Tuples corresponding to RGB colors
@@ -68,4 +72,4 @@ class PreventativeMeasure:
         LIMIT_TRAVEL,
         VACCINATE_POP,
         SHELTER_IN_PLACE
-    ]
+ 
