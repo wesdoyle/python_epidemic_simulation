@@ -56,6 +56,9 @@ class Universe(object):
 
         self.is_epidemic = True
         self.preventative_measures = None
+    
+    def iteration_num(self):
+        print(self.iteration_)
 
     @property
     def total_population(self):
