@@ -15,7 +15,9 @@ Tuples corresponding to RGB colors
     RECOVERED = (0, 160, 0)
     UNEXPOSED = (0, 120, 240)
 
-
+rewrwe
+rewrwe
+ResourceWarning
 class Disease:
 """
 Constants for disease
