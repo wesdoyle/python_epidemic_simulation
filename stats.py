@@ -18,7 +18,7 @@ class EpidemicStats:
         self.max_infected = InitialCondition.POP_INFECTED
         self.medical_limit = Screen.MEDICAL_LIMIT
 
-    def update(self):
+    def update():
         """
         Updates the graph visualization
         """
