@@ -1,7 +1,9 @@
 """
 Simulation Constants
-"""
 
+"""
+tuples corresponding to RGB colours
+"""
 
 class SimColor:
 """
@@ -17,7 +19,9 @@ Tuples corresponding to RGB colors
 
 
 class Disease:
-"""
+""
+Constant for disease
+""""
 Constants for disease
 """
     INFECTED = 0
