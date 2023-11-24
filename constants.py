@@ -39,7 +39,7 @@ Constants for Screen
 """
     WIDTH = 680
     HEIGHT = 480
-    FONT_SIZE = 18
+    FONT_SIZE = 16
     GRAPH_X_UNIT = 0.8
     MEDICAL_LIMIT = 50
 
