@@ -1,7 +1,7 @@
 """
 Simulation Constants
 """
-
+""
 
 class SimColor:
 """
