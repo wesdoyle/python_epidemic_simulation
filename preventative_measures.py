@@ -3,6 +3,7 @@ import random
 
 
 # this is to test git commit, pull, push, pull request, merge
+# this is some updates mode from new branch test_git
 
 from constants import PreventativeMeasure
 
