@@ -19,6 +19,8 @@ class PreventativeMeasures:
         self.vaccination_rate = vaccination_rate
         self.percent = percent
 
+        # some modifications of new code
+
     def enact(self):
         for measure in self.measures:
             if measure is PreventativeMeasure.SHELTER_IN_PLACE:
