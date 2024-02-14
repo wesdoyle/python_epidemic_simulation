@@ -52,11 +52,11 @@ class InitialCondition:
 
 
 class HostConfig:
-    SIZE = 11
+    SIZE = 21
     VACCINATION_DRIP = 3
     PREVENTATIVE_MEASURE_ADHERENCE = 0.5
-    MAX_SPEED = 6
-    MIN_SPEED = 2
+    MAX_SPEED = 15
+    MIN_SPEED = 7
 
 
 class PreventativeMeasure:
