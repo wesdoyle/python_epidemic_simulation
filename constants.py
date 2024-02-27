@@ -2,11 +2,11 @@
 Simulation Constants
 """
 
-
-class SimColor:
 """
 Tuples corresponding to RGB colors
 """
+class SimColor:
+
     LIGHT_GREY = (240, 240, 240)
     DARK_GREY = (30, 30, 50)
     BLACK = (0, 0, 0)
@@ -16,10 +16,11 @@ Tuples corresponding to RGB colors
     UNEXPOSED = (0, 120, 240)
 
 
-class Disease:
 """
 Constants for disease
 """
+class Disease:
+
     INFECTED = 0
     RECOVERED = 1
     UNEXPOSED = 2
@@ -33,10 +34,11 @@ Constants for disease
     }
 
 
-class Screen:
 """
 Constants for Screen
 """
+class Screen:
+
     WIDTH = 680
     HEIGHT = 480
     FONT_SIZE = 18
