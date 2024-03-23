@@ -4,7 +4,7 @@
 
 ### This is not a scientifically correct or rigorous simulation. It is used for programming learning purposes only!
 
-This is a crude simulation of an edpidemic using Python and `pygame`.
+This is a crude simulation of an epidemic using Python and `pygame`.
 
 The simulation consists of a 2-dimensional space in which a configurable number of epidemiological hosts move and transmit a contagious state with variable linear velocity.
 
