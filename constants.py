@@ -2,6 +2,10 @@
 Simulation Constants
 """
 
+"""
+some dockstring
+"""
+
 
 class SimColor:
 """
@@ -19,7 +23,14 @@ Tuples corresponding to RGB colors
 class Disease:
 """
 Constants for disease
+
+
 """
+
+"""
+some dockstring
+"""
+
     INFECTED = 0
     RECOVERED = 1
     UNEXPOSED = 2
