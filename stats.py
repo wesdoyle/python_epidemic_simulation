@@ -3,7 +3,7 @@ from pygame.rect import Rect
 
 from constants import InitialCondition, Screen, Disease, SimColor
 
-
+# new comment line added
 class EpidemicStats:
     """
     Provides statistics and visualization about current state
