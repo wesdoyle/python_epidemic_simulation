@@ -32,6 +32,9 @@ Constants for disease
         UNEXPOSED: SimColor.UNEXPOSED
     }
 
+"""
+Few comments dont hurt!!
+"""
 
 class Screen:
 """
