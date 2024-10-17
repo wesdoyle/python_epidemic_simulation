@@ -78,6 +78,8 @@ A `Makefile` is provided for convenience.
  
 Thank you to [Vue Minh Khue's example](https://github.com/khuevu/pygames/tree/master/bouncingball), from which I adapted basic 2-dimensional particle interactions for simulating collisions between circular objects in `pygame`.
 
+Let's thank Wes aswell, showing us the way!
+
  ## Improvements
  
  Improvements, additions, and corrections to the simulation are welcome. Please create a pull request if you would like to contribue.
