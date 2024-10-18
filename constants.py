@@ -2,7 +2,9 @@
 Simulation Constants
 """
 
-
+"""
+just for fun
+"""
 class SimColor:
 """
 Tuples corresponding to RGB colors
