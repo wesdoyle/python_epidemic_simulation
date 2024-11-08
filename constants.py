@@ -18,6 +18,7 @@ Tuples corresponding to RGB colors
 
 class Disease:
 """
+
 Constants for disease
 """
     INFECTED = 0
