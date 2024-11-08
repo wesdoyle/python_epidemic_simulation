@@ -1,5 +1,7 @@
 # Python Epidemic Simulation
 
+#Hi there!
+
 ## Summary
 
 ### This is not a scientifically correct or rigorous simulation. It is used for programming learning purposes only!
