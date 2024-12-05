@@ -2,7 +2,7 @@
 Simulation Constants
 """
 
-
+### Comments
 class SimColor:
 """
 Tuples corresponding to RGB colors
@@ -15,7 +15,7 @@ Tuples corresponding to RGB colors
     RECOVERED = (0, 160, 0)
     UNEXPOSED = (0, 120, 240)
 
-
+### Comments
 class Disease:
 """
 Constants for disease
@@ -32,7 +32,7 @@ Constants for disease
         UNEXPOSED: SimColor.UNEXPOSED
     }
 
-
+### Comments
 class Screen:
 """
 Constants for Screen
@@ -50,7 +50,7 @@ class InitialCondition:
     POP_UNEXPOSED = 49
     POP_INFECTED = 1
 
-
+### Comments
 class HostConfig:
     SIZE = 11
     VACCINATION_DRIP = 3
