@@ -31,6 +31,14 @@ Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 
 The laws below govern the simulation:
 
+
+
+
+
+
+
+
+
 - When initialized, a configured percentage of adherent hosts follow preventative measures.
 - Unless limited by preventative measures, hosts initialize traveling in a random direction in a specified range of speed.
 - If an `unexposed` and `infected` host come into contact, the `unexposed` host becomes `infected`
