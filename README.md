@@ -6,7 +6,7 @@
 
 This is a crude simulation of an edpidemic using Python and `pygame`.
 
-The simulation consists of a 2-dimensional space in which a configurable number of epidemiological hosts move and transmit a contagious state with variable linear velocity.
+The simulation consists of 2-dimensional space in which a configurable number of epidemiological hosts move and transmit a contagious state with variable linear velocity.
 
 Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 
@@ -30,6 +30,14 @@ Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 ### Basic Laws
 
 The laws below govern the simulation:
+
+
+
+
+
+
+
+
 
 - When initialized, a configured percentage of adherent hosts follow preventative measures.
 - Unless limited by preventative measures, hosts initialize traveling in a random direction in a specified range of speed.
