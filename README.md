@@ -10,6 +10,7 @@ The simulation consists of a 2-dimensional space in which a configurable number 
 
 Each host exists in a state of `unexposed`, `infected`, or `recovered`.
 
+# adding a new line here to the readme
 
 ## Demos
 
