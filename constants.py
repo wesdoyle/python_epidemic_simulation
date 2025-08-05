@@ -69,3 +69,7 @@ class PreventativeMeasure:
         VACCINATE_POP,
         SHELTER_IN_PLACE
     ]
+
+"""
+My changes
+"""
