@@ -108,12 +108,12 @@ class EpiHost:
         other.contact_response.new_speed_y = -speed_p * sin(-theta) + other_speed_q * cos(-theta)
 
     def transmit_pathogen(self, interlocutor):
-        if interlocutor.condition is Disease.INFECTED \
-                and self.condition is not Disease.RECOVERED:
+        if interlocutor.condition == Disease.INFECTED \
+                and self.condition != Disease.RECOVERED:
             self.condition = Disease.INFECTED
             self.color = Disease.COLOR_MAP[self.condition]
-        if self.condition is Disease.INFECTED \
-                and interlocutor.condition is not Disease.RECOVERED:
+        if self.condition == Disease.INFECTED \
+                and interlocutor.condition != Disease.RECOVERED:
             interlocutor.condition = Disease.INFECTED
             interlocutor.color = Disease.COLOR_MAP[interlocutor.condition]
 

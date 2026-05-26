@@ -145,6 +145,9 @@ class Universe(object):
             pygame.display.update()
 
         while self.is_epidemic_over:
+            for e in pygame.event.get():
+                if e.type == pygame.QUIT:
+                    self.quit()
             pygame.display.update()
 
     def progress_healing(self):
@@ -162,7 +165,8 @@ class Universe(object):
 
             if host.condition is Disease.INFECTED:
                 host.remaining_recovery -= 1
-
+                if host.remaining_recovery <= 0:
+                    host.condition = Disease.RECOVERED
             host.color = Disease.COLOR_MAP[host.condition]
 
     @staticmethod
@@ -192,7 +196,7 @@ class Universe(object):
         Returns true if there are no infected hosts
         :return: Boolean
         """
-        return self.get_population_count(Disease.INFECTED) is 0
+        return self.get_population_count(Disease.INFECTED) == 0
 
 
 if __name__ == "__main__":
